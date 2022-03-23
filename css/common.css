@@ -1,0 +1,126 @@
+@charset "utf-8";
+* {
+	margin:0 auto;
+	padding:0;
+}
+body {
+	font-family:"나눔고딕",Arial;
+	background-color:#fff;
+	height:100%;
+	color:#1c130c;
+	font-weight:bold;
+	font-size:22px;
+	position:relative;
+}
+ul {
+	padding:0;
+}
+li {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+/*header 시작*/
+
+.firstDiv {
+	width:100%;
+	background-color:#1c130c;
+	min-width:1400px;
+}
+header {
+	width:1400px;
+	height:78px;
+}
+header>h1 {
+	float:left;
+	width:275px;
+	height:78px;
+	padding-top:18px;
+	padding-left:57px;
+	box-sizing:border-box;
+}
+header>nav {
+	float:left;
+	width:1125px;
+	height:78px;
+}
+.menu {
+	width:895px;
+	height:78px;
+	padding-top:35px;
+	box-sizing:border-box;
+	margin:0;
+	float:left;
+}
+.menu>li {
+	float:left;
+}
+.menu>li>a {
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+	margin-right:60px;
+	box-sizing:border-box;
+}
+.menu>li>a:hover {
+	color:#ddcabc;
+}
+.icon {
+	width:230px;
+	height:78px;
+	padding-top:35px;
+	padding-left:76px;
+	box-sizing:border-box;
+	margin:0;
+	float:left;
+}
+.icon>li {
+	float:left;
+}
+.icon>li:nth-child(2) {
+	padding:0px 26px;
+}
+
+/* banner */
+
+.content {
+	min-height:700px;
+}
+
+/* footer */
+
+.lastDiv {
+	width:100%;
+	height:222px;
+	background-color:#1c130c;
+	min-width:1400px;
+}
+footer {
+	color:#fff;
+	width:1400px;
+	height:222px;
+	padding-left:40px;
+	padding-top:30px;
+	box-sizing:border-box;
+}
+footer>ul>li {
+	float:left;
+}
+footer>ul>li>a {
+	font-size:12px;
+	font-weight:bold;
+	margin-right:105px;
+}
+footer>ul:after {
+	content:"";
+	display:inline-block;
+	clear:both;
+}
+footer>p {
+	font-size:10px;
+	margin-top:38px;
+	line-height:13px;
+}
